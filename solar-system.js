@@ -1,6 +1,3 @@
-
-
-<code_start project_name=太阳系模拟 filename=solar-system.js title=太阳系核心逻辑 entrypoint=false runnable=false project_final_file=true>
 class SolarSystem {
     constructor() {
         this.canvas = document.getElementById('solarSystem');
@@ -342,4 +339,5 @@ class SolarSystem {
 document.addEventListener('DOMContentLoaded', () => {
     new SolarSystem();
 });
+
 
